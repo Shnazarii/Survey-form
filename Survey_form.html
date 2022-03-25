@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+	<head>
+		<title>Project</title>
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+	<h1 id="title">Survey Form</h1>	
+	<p id="description">Thank you for taking the time to help us improve the platform</p>
+	<form action="" id="survey-form">
+		<label for="name" id="name-label">Name: <input type="text" id="name" required placeholder="Enter your name"  /></label><br />
+		<label for="email" id="email-label">Email: <input type="email" id="email" required  placeholder="Enter your email"/></label><br />
+		<label for="number" id="number-label">Age: <input type="number" id="number" placeholder="age" maxlength="30" required /></label><br />
+		<label for="">Which option best describes your current role?
+			<select name="" id="dropdown">
+				<option value="">Select current role</option>
+				<option value="">Student</option>
+				<option value="">Teacher</option>
+			</select>
+		</label>
+		<p>Whould you recommend freeCodeCamp to a friend?</p>
+		<input type="radio" /> Definitely <br />
+		<input type="radio" /> Maybe<br />
+		<input type="radio" /> Not Sure<br />
+		<label>What is your favorite feature of freeCodeCamp?</label>
+			<select name="" id="dropdown">
+				<option value="">Select one option</option>
+				<option value="">Easy Learn</option>
+				<option value="">Projects</option>
+			</select>
+			<p>What whould you like to see improved?(cheack all that apply)</p>
+			<input type="checkbox" value=""/>Front-end projects <br />
+			<input type="checkbox" />Back-end projects <br />
+			<input type="checkbox" />Data Visualization <br />
+			<input type="checkbox" />Challenges<br />
+			<input type="checkbox" />Open Source Community<br />
+			<input type="checkbox" />Gitter help rooms<br />
+			<input type="checkbox" />City meetups<br />
+			<input type="checkbox" />Additional Courses<br />
+			<p> Any comments or suggestions?</p>
+			<textarea name="" id="" cols="90" rows="5">Enter your comment here...</textarea><br />
+			<button id="submit">Submit</button>
+	</form>
+	</body>
